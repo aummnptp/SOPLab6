@@ -1,0 +1,18 @@
+_id,sex,name,school,house,money,position
+65089014bb52e6c5c997c384,m,Severus Snape,Hogwarts,Slytherin,35000,teacher
+65089024bb52e6c5c997c386,f,Minerva McGonagall,Hogwarts,Gryffindor,50000,teacher
+6508902ebb52e6c5c997c388,f,Sybill Trelawney,Hogwarts,Ravenclaw,15000,teacher
+6508903abb52e6c5c997c38a,m,Quirinus Quirrell,Hogwarts,Ravenclaw,5000,teacher
+65089041bb52e6c5c997c38c,m,Albus Dumbledore,Hogwarts,Gryffindor,95000,teacher
+65089048bb52e6c5c997c38e,m,Remus Lupin,Hogwarts,Gryffindor,52000,teacher
+65089051bb52e6c5c997c390,m,Igor Karkaroff,Durmstrang,,35000,teacher
+6508905cbb52e6c5c997c392,f,Pomona Sprout,Hogwarts,Hufflepuff,25000,teacher
+65089062bb52e6c5c997c394,f,Madame Maxime,Beauxbatons,,45000,teacher
+65089086bb52e6c5c997c396,m,Harry Potter,Hogwarts,Gryffindor,9000,student
+6508908dbb52e6c5c997c398,f,Cho Chang,Hogwarts,Ravenclaw,7500,student
+6508909abb52e6c5c997c39a,f,Hermione Granger,Hogwarts,Gryffindor,9000,student
+650890a5bb52e6c5c997c39c,m,Neville Longbottom,Hogwarts,Gryffindor,9000,student
+650890abbb52e6c5c997c39e,m,Newt Scamander,Hogwarts,Hufflepuff,7900,student
+650890b0bb52e6c5c997c3a0,m,Cedric Diggory,Hogwarts,Hufflepuff,8900,student
+650890b6bb52e6c5c997c3a2,m,Viktor Krum,Durmstrang,,8600,student
+650890babb52e6c5c997c3a4,f,Fleur Delacour,Beauxbatons,,9000,student
