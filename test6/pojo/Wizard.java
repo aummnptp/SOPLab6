@@ -22,7 +22,11 @@ public class Wizard implements Serializable {
 
     public Wizard( String sex, String name, String school, String house, Double money, String position) {
 //        this._id = _id;
-        this.sex = sex;
+        if (sex.equals("Male")){
+            this.sex="m";
+        }
+        else{this.sex = "f";}
+//        this.sex = sex;
         this.name = name;
         this.school = school;
         this.house = house;
