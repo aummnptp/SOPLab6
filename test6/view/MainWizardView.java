@@ -29,7 +29,7 @@ public class MainWizardView extends VerticalLayout {
     ComboBox<String> school = new ComboBox<>("School");
     ComboBox<String> house = new ComboBox<>("House");
     ArrayList<Wizard> wizards;
-    int current = 0;
+    int current = -1;
     public MainWizardView() {
         name.setPlaceholder("Fullname");
         gender.setItems("Male", "Female");
@@ -54,12 +54,14 @@ public class MainWizardView extends VerticalLayout {
 
         wizards = this.getWizards();
 
-        this.setTextField(wizards.get(current));
+//        this.setTextField(wizards.get(current));
         prev.addClickListener(buttonClickEvent -> {this.backward();});
         next.addClickListener(buttonClickEvent -> {this.forward();});
 
+
         create.addClickListener(event -> {
             System.out.println("in create btn");
+
             Wizard wizard = new Wizard(String.valueOf(gender.getValue()), String.valueOf(name.getValue()), String.valueOf(school.getValue()), String.valueOf(house.getValue()), dollars.getValue(), String.valueOf(position.getValue()));
             System.out.println("wizard : " + wizard);
 
@@ -81,6 +83,7 @@ public class MainWizardView extends VerticalLayout {
         });
 
         update.addClickListener(buttonClickEvent -> {
+
             Wizard wizard = new Wizard(String.valueOf(gender.getValue()), name.getValue(), String.valueOf(school.getValue()), String.valueOf(house.getValue()), (dollars.getValue()), String.valueOf(position.getValue()));
             System.out.println("wizard : " + wizard);
             System.out.println("current.get_id() : " + wizards.get(current).get_id());
